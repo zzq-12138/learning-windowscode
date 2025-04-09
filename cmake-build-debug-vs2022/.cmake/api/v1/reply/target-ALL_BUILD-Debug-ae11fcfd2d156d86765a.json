@@ -1,0 +1,121 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "code01::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "code03::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "code06_3::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "code04::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "code02::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "code05::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "code06_2::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "code08_02::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "code11_00::@fbb32f0d6345fd691d67"
+		},
+		{
+			"id" : "code12_00::@514353b02aea1011f61f"
+		},
+		{
+			"id" : "code12_02::@514353b02aea1011f61f"
+		},
+		{
+			"id" : "code13_01::@b54a6106491f0bfb3282"
+		},
+		{
+			"id" : "code06_4::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "code07::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "code11_01::@fbb32f0d6345fd691d67"
+		},
+		{
+			"id" : "code08_01::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "code10_01::@c7fcab547090a076d831"
+		},
+		{
+			"id" : "code10_00::@c7fcab547090a076d831"
+		},
+		{
+			"id" : "code11_02::@fbb32f0d6345fd691d67"
+		},
+		{
+			"id" : "code12_01::@514353b02aea1011f61f"
+		},
+		{
+			"id" : "code13_00::@b54a6106491f0bfb3282"
+		},
+		{
+			"id" : "code15_02::@7dd83f9f180aedeec221"
+		},
+		{
+			"id" : "code13_02::@b54a6106491f0bfb3282"
+		},
+		{
+			"id" : "code14_01::@676c2d3dd13482a2c28d"
+		},
+		{
+			"id" : "code14_00::@676c2d3dd13482a2c28d"
+		},
+		{
+			"id" : "code14_02::@676c2d3dd13482a2c28d"
+		},
+		{
+			"id" : "code15_00::@7dd83f9f180aedeec221"
+		},
+		{
+			"id" : "code15_01::@7dd83f9f180aedeec221"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

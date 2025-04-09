@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6B09DF99-1C47-3D2D-B54B-24BEDF04FEB1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\clioncodec\WindowsCode01\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/clioncodec/WindowsCode01/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"F:\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -SF:/clioncodec/WindowsCode01 -BF:/clioncodec/WindowsCode01/cmake-build-debug-vs2022 --check-stamp-file F:/clioncodec/WindowsCode01/cmake-build-debug-vs2022/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCCompiler.cmake.in;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCCompilerABI.c;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystem.cmake.in;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestCCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\HP-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\LCC-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XL-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\zOS-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CompilerId\VS-10.vcxproj.in;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\CMakeFiles\3.30.5\CMakeCCompiler.cmake;F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\CMakeFiles\3.30.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/clioncodec/WindowsCode01/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"F:\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -SF:/clioncodec/WindowsCode01 -BF:/clioncodec/WindowsCode01/cmake-build-debug-vs2022 --check-stamp-file F:/clioncodec/WindowsCode01/cmake-build-debug-vs2022/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCCompiler.cmake.in;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCCompilerABI.c;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystem.cmake.in;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestCCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\HP-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\LCC-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XL-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\zOS-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CompilerId\VS-10.vcxproj.in;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\CMakeFiles\3.30.5\CMakeCCompiler.cmake;F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\CMakeFiles\3.30.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/clioncodec/WindowsCode01/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"F:\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -SF:/clioncodec/WindowsCode01 -BF:/clioncodec/WindowsCode01/cmake-build-debug-vs2022 --check-stamp-file F:/clioncodec/WindowsCode01/cmake-build-debug-vs2022/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCCompiler.cmake.in;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCCompilerABI.c;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystem.cmake.in;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestCCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\HP-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\LCC-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XL-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\zOS-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CompilerId\VS-10.vcxproj.in;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\CMakeFiles\3.30.5\CMakeCCompiler.cmake;F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\CMakeFiles\3.30.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/clioncodec/WindowsCode01/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"F:\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -SF:/clioncodec/WindowsCode01 -BF:/clioncodec/WindowsCode01/cmake-build-debug-vs2022 --check-stamp-file F:/clioncodec/WindowsCode01/cmake-build-debug-vs2022/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCCompiler.cmake.in;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCCompilerABI.c;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCInformation.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeCompilerIdDetection.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerABI.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerId.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineCompilerSupport.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineRCCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeDetermineSystem.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeFindBinUtils.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseImplicitIncludeInfo.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseImplicitLinkInfo.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeParseLibraryArchitecture.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCCompiler.cmake.in;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeRCInformation.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystem.cmake.in;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestCCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestCompilerCommon.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CMakeTestRCCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ADSP-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ARMCC-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\ARMClang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\AppleClang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Borland-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Cray-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\CrayClang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GHS-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\GNU-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\HP-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IAR-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Intel-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\LCC-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\MSVC.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\NVHPC-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\OrangeC-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\PGI-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\PathScale-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SCO-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TI-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TIClang-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Tasking-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\Watcom-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XL-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Compiler\zOS-C-DetermineCompiler.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\CompilerId\VS-10.vcxproj.in;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\CMakeDetermineLinkerId.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Internal\FeatureTesting.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\Windows.cmake;F:\CLion 2024.3.4\bin\cmake\win\x64\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\CMakeFiles\3.30.5\CMakeCCompiler.cmake;F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\CMakeFiles\3.30.5\CMakeRCCompiler.cmake;F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\CMakeFiles\3.30.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\ZERO_CHECK.vcxproj">
+      <Project>{15D1B602-8B5F-36E4-986C-A8B5E823F394}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code01.vcxproj">
+      <Project>{FC733803-28CD-3B3D-89C7-7837F3B39163}</Project>
+      <Name>code01</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code02.vcxproj">
+      <Project>{79B1AEBB-7E31-3A7B-AC31-264D84C1D376}</Project>
+      <Name>code02</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code03.vcxproj">
+      <Project>{8AEF7457-DF4E-3B0B-ABA8-DDE993EE01AF}</Project>
+      <Name>code03</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code04.vcxproj">
+      <Project>{FF28CFEC-EEDE-3F55-B909-6E8E1DB43A6A}</Project>
+      <Name>code04</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code05.vcxproj">
+      <Project>{A82E3352-C1B7-3D4B-A6AE-C28EB73E27D6}</Project>
+      <Name>code05</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code06_2.vcxproj">
+      <Project>{4380290E-4DEE-3D29-9FBB-8B234CB82A90}</Project>
+      <Name>code06_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code06_3.vcxproj">
+      <Project>{A978206B-2FA9-3A32-AE03-3AD1B310D0BE}</Project>
+      <Name>code06_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code06_4.vcxproj">
+      <Project>{0DA9B1E0-4FED-31A5-9F47-3DA94865031C}</Project>
+      <Name>code06_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code07.vcxproj">
+      <Project>{A28D2A48-B747-3ECC-B211-FF79A7925DBB}</Project>
+      <Name>code07</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code08_01.vcxproj">
+      <Project>{0DFA54BC-0020-301E-9A0A-06D2B3A451E0}</Project>
+      <Name>code08_01</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code08_02.vcxproj">
+      <Project>{75FF4C39-05F8-3908-9B62-7298A1E393DF}</Project>
+      <Name>code08_02</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code10\code10_00.vcxproj">
+      <Project>{6336B613-E2E9-3AB9-99A8-467A6155A232}</Project>
+      <Name>code10_00</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code10\code10_01.vcxproj">
+      <Project>{CC35C7D7-2BD5-31E4-9F04-FF76FDD47ECB}</Project>
+      <Name>code10_01</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code11\code11_00.vcxproj">
+      <Project>{3CAFA9E8-80A2-3186-8B76-0233075E84CF}</Project>
+      <Name>code11_00</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code11\code11_01.vcxproj">
+      <Project>{507C5E4E-6BAD-342A-AF9C-257BB3B594A8}</Project>
+      <Name>code11_01</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code11\code11_02.vcxproj">
+      <Project>{A762781D-CF71-3C06-89AF-8E5A54EB2426}</Project>
+      <Name>code11_02</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code12\code12_00.vcxproj">
+      <Project>{D27FDE85-7A88-3C9E-B22B-D41DC89BE8D5}</Project>
+      <Name>code12_00</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code12\code12_01.vcxproj">
+      <Project>{E7D721F4-CFE5-3080-80F5-C560A20B07D3}</Project>
+      <Name>code12_01</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code12\code12_02.vcxproj">
+      <Project>{4FA001A8-5E7B-34CA-AE92-27A84AF8CB61}</Project>
+      <Name>code12_02</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code13\code13_00.vcxproj">
+      <Project>{5DD2C4E8-9CEF-3C30-9356-BF6C53A65B84}</Project>
+      <Name>code13_00</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code13\code13_01.vcxproj">
+      <Project>{4BB68A31-3636-349B-9D1D-F355D57FDD9C}</Project>
+      <Name>code13_01</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code13\code13_02.vcxproj">
+      <Project>{DF975454-5A9E-3CDA-B4DA-4A3009DB4591}</Project>
+      <Name>code13_02</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code14\code14_00.vcxproj">
+      <Project>{F70E4D09-B40D-36F7-9698-897582513612}</Project>
+      <Name>code14_00</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code14\code14_01.vcxproj">
+      <Project>{F9181A6D-B2E9-35E6-B954-E0B063B35788}</Project>
+      <Name>code14_01</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code14\code14_02.vcxproj">
+      <Project>{F9A83CE9-F7B3-35F7-9F6F-BD13286FF632}</Project>
+      <Name>code14_02</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code15\code15_00.vcxproj">
+      <Project>{E05A089C-9635-388A-A67E-B48974B7A32D}</Project>
+      <Name>code15_00</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code15\code15_01.vcxproj">
+      <Project>{0F388E7C-9715-33F7-936B-233BCBF8BF92}</Project>
+      <Name>code15_01</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\clioncodec\WindowsCode01\cmake-build-debug-vs2022\code15\code15_02.vcxproj">
+      <Project>{F94EF5D2-B850-382E-9245-1D80CDE963CE}</Project>
+      <Name>code15_02</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

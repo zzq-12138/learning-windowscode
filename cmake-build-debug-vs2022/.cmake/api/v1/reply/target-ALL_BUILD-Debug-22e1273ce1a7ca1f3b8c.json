@@ -1,0 +1,46 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"code14/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "code14_01::@676c2d3dd13482a2c28d"
+		},
+		{
+			"id" : "code14_00::@676c2d3dd13482a2c28d"
+		},
+		{
+			"id" : "code14_02::@676c2d3dd13482a2c28d"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@676c2d3dd13482a2c28d",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "code14",
+		"source" : "code14"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
