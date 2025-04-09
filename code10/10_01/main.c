@@ -97,6 +97,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 				TextOut(hdc, 2 * cxChar + (k - 1) * cxChar * 12, cyChar + (i + iExHeight) * cyChar, szBuffer, lstrlen(szBuffer));
 			}
+
 		}
 
 		EndPaint(hwnd, &ps);
